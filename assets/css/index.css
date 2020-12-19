@@ -1,0 +1,74 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  height: 100%;
+}
+
+.row {
+  height: 100%;
+}
+
+.jumbotron {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/susan-yin-2JIvboGLeho-unsplash.png);
+  color: white;
+  margin-bottom: 0;
+}
+
+.display-6 {
+  color: #669b64;
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  height: 60px;
+}
+
+.fixed-top {
+  z-index: 10;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #0d868c;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#mySidenav {
+  border-radius: 20px;
+  border-right: 1px solid black;
+}
