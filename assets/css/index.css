@@ -3,6 +3,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 .container-fluid {
@@ -19,6 +20,10 @@ body {
   background-image: url(../img/susan-yin-2JIvboGLeho-unsplash.png);
   color: white;
   margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-family: "Atma", cursive;
 }
 
 .display-6 {
@@ -71,4 +76,9 @@ body {
 #mySidenav {
   border-radius: 20px;
   border-right: 1px solid black;
+}
+
+@font-face {
+  font-family: Atma-medium;
+  src: url(/assets/font/Atma/Atma-Medium.ttf);
 }
