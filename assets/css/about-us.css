@@ -5,8 +5,17 @@ body {
   padding: 0;
 }
 
+.navbar {
+  background-color: #f9d100 !important;
+}
+
 .navbar-brand img {
   height: 60px;
+}
+
+.btn {
+  background-color: #f48222;
+  color: white;
 }
 
 .img-logo {
