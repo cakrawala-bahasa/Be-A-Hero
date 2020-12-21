@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar {
   background-color: #f9d100 !important;
 }
@@ -7,8 +11,25 @@
   color: white;
 }
 
+.card {
+  height: 330px !important;
+}
+
+.navbar {
+  height: 100% !important;
+}
+
+.btn-list {
+  display: none !important;
+  border-radius: 15px !important;
+}
+
 @media only screen and (max-width: 768px) {
   .display-4 {
     font-size: 2.5rem;
+  }
+
+  .btn-list {
+    display: block !important;
   }
 }
